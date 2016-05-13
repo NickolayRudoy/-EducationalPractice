@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Home</title>
+
+    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans'>
+    <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/jScrollPane/2.0.14/jquery.jscrollpane.min.css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+    <link href="Style.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="header">
+    <p class="text-welcome">Welcome to chat</p>
+</div>
+
+<div class="container">
+    <div class="window-wrapper">
+
+        <div class="window-area">
+
+            <div class="left-tabs">
+                <h2>Users</h2>
+                <ul class="tabs-container">
+                    <li class="active">
+                        <ul class="member-list">
+                            <li class="me-list">
+                                <span class="myName">Rudoy Nickolay</span>
+                                <a  class="editUserName" id="editUserName" onclick="editUserNameInput(this)">
+                                    <span class="glyphicon glyphicon-pencil"></span>
+                                </a>
+                            </li>
+                            <li></span><span>User1</span></li>
+                            <li></span><span>User2</span></li>
+                            <li></span><span>User3</span></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="chat-area">
+                <div class="title">
+                    <i>Messages</i>
+                    <p class="error">
+                        <span class="glyphicon glyphicon-warning-sign"></span>
+                        Error Server
+                    </p>
+                </div>
+                <div class="chat-list">
+                    <ul class="messages">
+                        <li class="mine">
+                            <div class="name">
+                                <span class="name">nameuser</span>
+                            </div>
+                            <div class="message">
+                                <p class="text">message</p>
+                            </div>
+                            <div class="delete-and-edit">
+
+                            </div>
+                        </li>
+                        <li class="mine">
+                            <div class="name">
+                                <span class="name">nameuser</span>
+                            </div>
+                            <div class="message">
+                                <p class="text">message</p>
+                            </div>
+                            <div class="delete-and-edit">
+
+                            </div>
+                        </li>
+                        <li class="mine">
+                            <div class="name">
+                                <span class="name">nameuser</span>
+                            </div>
+                            <div class="message">
+                                <p class="text">message</p>
+                            </div>
+                            <div class="delete-and-edit">
+
+                            </div>
+                        </li>
+                        <li class="mine">
+                            <div class="name">
+                                <span class="name">nameuser</span>
+                            </div>
+                            <div class="message">
+                                <p class="text">message</p>
+                            </div>
+                            <div class="delete-and-edit">
+
+                            </div>
+                        </li>
+                        <li class="mine">
+                            <div class="name">
+                                <span class="name">nameuser</span>
+                            </div>
+                            <div class="message">
+                                <p class="text">message</p>
+                            </div>
+                            <div class="delete-and-edit">
+
+                            </div>
+                        </li>
+
+
+                        <li class="mine">
+                            <div class="name">
+                                <span class="name">nameuser</span>
+                            </div>
+                            <div class="message">
+                                <p class="text">message</p>
+                            </div>
+                            <div class="delete-and-edit">
+
+                            </div>
+                        </li>
+                        <li class="mine">
+                            <div class="name">
+                                <span class="name">nameuser</span>
+                            </div>
+                            <div class="message">
+                                <p class="text">message</p>
+                            </div>
+                            <div class="delete-and-edit">
+
+                            </div>
+                        </li>
+
+
+                        <li class="mine">
+                            <div class="name">
+                                <span class="name">nameuser2</span>
+                            </div>
+                            <div class="message">
+                                <p class="text">hello world</p>
+                            </div>
+                            <div class="delete-and-edit">
+
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <div class="input-area">
+                    <div class="input-text">
+                        <p>Enter Message:</p>
+                    </div>
+                    <div class="input">
+                        <div class="input-wrapper">
+                            <input type="text" value="" id="textMessage">
+                        </div>
+                        <input type="button" value="Send" class="add-button">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="footer">
+    <p>By Rudoy Nickolay</p>
+</div>
+
+<div>
+
+    <li class="mine" style="display: none" id="template" data-task-id="id">
+        <div class="name">
+            <span class="name">nameuser</span>
+        </div>
+        <div class="message">
+            <p class="text">message</p>
+        </div>
+        <div class="delete-and-edit">
+
+        </div>
+    </li>
+
+</div>
+
+</body>
+
+</html>
